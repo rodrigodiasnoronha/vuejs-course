@@ -48,7 +48,7 @@ export default {
     flex: 3;
 
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;w
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .op {

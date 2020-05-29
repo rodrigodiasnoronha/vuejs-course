@@ -1,31 +1,32 @@
 <template>
   <div id="app">
-    <Calculator />
+    <SalesProject />
   </div>
 </template>
 
-
 <script>
-import Calculator from "./components/Calculator";
+import SalesProject from './components/SalesProject';
 
 export default {
-    name: "App",
+    name: 'App',
     components: {
-        Calculator,
+        SalesProject,
     },
 };
 </script>
->
-
 
 
 <style>
 #app {
-    font-family: Avenir, Helvetica, Arial, sans-serif;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
     color: #2c3e50;
+}
+
+* {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
 }
 
 #nav {
